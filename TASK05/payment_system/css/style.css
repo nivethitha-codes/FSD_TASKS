@@ -1,0 +1,68 @@
+body{
+font-family:Segoe UI;
+background:linear-gradient(135deg,#667eea,#764ba2);
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.glass{
+background:rgba(255,255,255,0.2);
+backdrop-filter:blur(10px);
+padding:30px;
+border-radius:15px;
+width:400px;
+color:white;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+input,select{
+margin-bottom:15px;
+}
+
+button{
+width:100%;
+}
+
+.card3d{
+width:320px;
+height:180px;
+background:linear-gradient(45deg,#141e30,#243b55);
+color:white;
+border-radius:15px;
+padding:20px;
+margin:auto;
+transform-style:preserve-3d;
+transition:0.5s;
+}
+
+.card3d:hover{
+transform:rotateY(20deg) rotateX(10deg);
+}
+
+.loader{
+border:6px solid #eee;
+border-top:6px solid #00ff9d;
+border-radius:50%;
+width:60px;
+height:60px;
+animation:spin 1s linear infinite;
+margin:auto;
+}
+
+@keyframes spin{
+100%{transform:rotate(360deg);}
+}
+
+.success{
+font-size:40px;
+text-align:center;
+color:#00ff9d;
+animation:pop 1s ease;
+}
+
+@keyframes pop{
+0%{transform:scale(0);}
+100%{transform:scale(1);}
+}
