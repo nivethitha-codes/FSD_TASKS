@@ -69,3 +69,22 @@ This repository contains my Full Stack Development lab tasks.
 
 **Real-Time Usage:** Core example of Spring IoC and DI concepts, useful for building larger enterprise applications with Spring Framework.
 
+
+### TASK09: Basic Spring MVC Application (Annotation-Based)
+
+**Description:**  
+Develop a basic Spring MVC application using **annotation-based configuration** (no XML configuration).  
+
+**Features:**  
+- Create a controller to handle user requests.  
+- Accept input parameters from the user via a web form.  
+- Display employee details or other data using the MVC flow (Model → View → Controller).  
+- Use `@Controller`, `@RequestMapping`, and `@GetMapping` / `@PostMapping` annotations.  
+- Views handled using JSP or Thymeleaf templates.  
+
+**Technologies:** Java, Spring MVC, Maven, Eclipse, JSP/Thymeleaf  
+
+**Real-Time Usage:**  
+Demonstrates basic MVC architecture in Spring, foundational for building web applications and understanding request handling in enterprise projects.
+
+
