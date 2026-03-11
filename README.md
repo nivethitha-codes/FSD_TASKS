@@ -4,26 +4,68 @@ This repository contains my Full Stack Development lab tasks.
 
 ## Completed Tasks
 
-TASK01 - Basic Web Development  
-TASK02 - HTML and CSS  
-TASK03 - JavaScript Basics  
-TASK04 - Order Management System  
-TASK05 - Payment System  
-TASK06 - Database Task  
-TASK07 - Application Task  
+### TASK01: Student Registration & Data Storage
+**Description:** Design a Student Registration Form using HTML5 and CSS3 that collects: Name, Email, DOB, Department, Phone.  
+**Database:** Store the data in a database table and retrieve it using SELECT queries.  
+**Real-Time Usage:** Student or employee record management systems.
 
-## TASK08 - Spring Core Employee Management
+### TASK02: Data Retrieval & Sorting Dashboard
+**Description:** Create a page that displays student or employee records with:  
+- Sorting by name or date  
+- Filtering by department  
+- Count of students per department  
+**Real-Time Usage:** Administrative dashboards and reporting systems.
 
-Features:
-- Spring Core
-- Inversion of Control (IoC)
-- Dependency Injection (@Autowired)
-- Component scanning (@Component)
-- BeanFactory usage
-- In-memory employee storage using ArrayList
+### TASK03: Login System with Validation
+**Description:**  
+- Develop a Login Page  
+- Validate inputs using JavaScript  
+- Check credentials from the database  
+- Show error messages dynamically  
+**Real-Time Usage:** Authentication systems for web applications.
 
-Technologies:
-- Java
-- Spring Core
-- Maven
-- Eclipse
+### TASK04: Order Management using Joins
+**Concepts Used:** Joins, Subqueries, ORDER BY, CSS layout  
+**Description:**  
+- Create tables for Customers, Orders, Products  
+- Display customer order history using JOIN queries  
+- Use a subquery to find highest value order and most active customer  
+**Real-Time Usage:** E-commerce and retail systems.
+
+### TASK05: Transaction-Based Payment Simulation
+**Description:**  
+- Simulate an online payment process  
+- Deduct balance from user account  
+- Add amount to merchant account  
+- Use COMMIT on success, ROLLBACK on failure  
+**Real-Time Usage:** Banking and digital payment applications.
+
+### TASK06: Automated Logging using Triggers & Views
+**Description:**  
+- A trigger that logs every INSERT or UPDATE  
+- A view that shows daily activity reports  
+**Real-Time Usage:** Audit logging in enterprise databases.
+
+### TASK07: Interactive Web Form with Events & Functions
+**Description:**  
+- Build an interactive feedback form  
+- Validate inputs on keypress  
+- Highlight fields on mouse hover  
+- Show confirmation on double-click submit  
+- Use JS functions for reusable validation logic  
+**Real-Time Usage:** Customer feedback and survey systems.
+
+### TASK08: Spring Core Employee Management
+**Description:** Create a simple Employee Management module using Spring Core.  
+**Features:**  
+- Inversion of Control (IoC) demonstrated via Spring managing objects  
+- Dependency Injection using `@Autowired`  
+- Component scanning using `@Component`  
+- BeanFactory usage for bean management  
+- Employee data stored in-memory using ArrayList  
+- Supports adding, viewing, searching, and deleting employees  
+
+**Technologies:** Java, Spring Core, Maven, Eclipse  
+
+**Real-Time Usage:** Core example of Spring IoC and DI concepts, useful for building larger enterprise applications with Spring Framework.
+
