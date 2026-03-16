@@ -87,4 +87,30 @@ Develop a basic Spring MVC application using **annotation-based configuration** 
 **Real-Time Usage:**  
 Demonstrates basic MVC architecture in Spring, foundational for building web applications and understanding request handling in enterprise projects.
 
+## TASK10: Student CRUD Application
+
+Build a **Student CRUD application** using **Spring Boot**.  
+
+**Features:**
+- Maps the database table using **JPA annotations**:
+  - `@Entity`, `@Id`, `@Table`, and `@Column`
+- Performs **CRUD operations**:
+  - **Create** – Add new student records
+  - **Read** – View student details
+  - **Update** – Edit existing student records
+  - **Delete** – Remove student records
+- Uses a **relational database** for persistence.
+
+**Folder structure:**
+TASK10_StudentCRUDApp
+│
+├─ src/main/java/com.example.studentcrud
+│ ├─ StudentCrudApplication.java
+│ ├─ controller
+│ ├─ model
+│ └─ repository
+├─ src/main/resources
+│ ├─ application.properties
+│ └─ templates/*.html
+└─ pom.xml
 
