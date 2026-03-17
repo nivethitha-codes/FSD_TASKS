@@ -114,3 +114,33 @@ TASK10_StudentCRUDApp
 │ └─ templates/*.html
 └─ pom.xml
 
+
+## TASK11: Data Access Layer using Spring Data JPA
+
+Build a **Data Access Layer (DAL)** for the Student module using **Spring Data JPA**.
+
+**Features:**
+- Uses `JpaRepository` interface for database operations
+- Implements **custom query methods** to retrieve student records based on:
+  - Department
+  - Age
+- Supports **Sorting and Pagination**
+- Demonstrates separation of concerns using:
+  - Controller Layer
+  - Service Layer
+  - Repository Layer
+- Automatically maps database table using **JPA Entity annotations**
+
+**Technologies Used:**
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Maven
+- Eclipse
+
+**APIs Implemented:**
+
+- Get students by department:
+
+
