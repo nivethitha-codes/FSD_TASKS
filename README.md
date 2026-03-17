@@ -139,8 +139,24 @@ Build a **Data Access Layer (DAL)** for the Student module using **Spring Data J
 - Maven
 - Eclipse
 
-**APIs Implemented:**
 
-- Get students by department:
+**Folder Structure:**
+
+TASK11_StudentDALApp
+│
+├─ src/main/java/com.example.demo
+│ ├─ StudentDalApplication.java
+│ ├─ controller
+│ ├─ service
+│ ├─ repository
+│ └─ entity
+│
+├─ src/main/resources
+│ └─ application.properties
+│
+└─ pom.xml
+
+**Real-Time Usage:**
+This task demonstrates how enterprise applications implement a **Data Access Layer** using Spring Data JPA to efficiently retrieve and manage database records with filtering, sorting, and pagination.
 
 
