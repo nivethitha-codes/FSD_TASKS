@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: task16-api-gateway
+
+  cloud:
+    gateway:
+      routes:
+
+        # Route 1: Product Service with Load Balancing
+        - id: task16-product-route
+          uri: lb://task16-product-service
+          predicates:
+            - Path=/products/**
+
+        # Route 2: Order Service with Load Balancing
+        - id: task16-order-route
+          uri: lb://task16-order-service
+          predicates:
+            - Path=/orders/**
+
+      # Load Balancer instance list (manual, no Eureka needed)
+      loadbalancer:
+        ribbon:
+          enabled: false
+
+# Manual service instances for Spring Cloud LoadBalancer
+spring.cloud.discovery.client.simple.instances:
+  task16-product-service:
+    - uri: http://localhost:8081
+    - uri: http://localhost:8082
+  task16-order-service:
+    - uri: http://localhost:8083
+    - uri: http://localhost:8084
